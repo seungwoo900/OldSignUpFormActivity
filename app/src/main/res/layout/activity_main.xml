@@ -37,8 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="120dp"
         android:ems="10"
         android:text="Select"
         app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
@@ -48,9 +48,11 @@
         android:id="@+id/profileImageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginBottom="56dp"
         android:padding="42dp"
         app:layout_constraintBottom_toTopOf="@+id/passwordTextView"
         app:layout_constraintEnd_toStartOf="@+id/uploadButton"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/profilepicture" />
 
